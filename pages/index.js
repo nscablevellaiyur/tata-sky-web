@@ -205,7 +205,7 @@ export default function Home() {
                       theUser !== null && theUser.acStatus !== "null" ?
                         <Message>
                           <Message.Header>Dynamic URL to get m3u: </Message.Header>
-                          {/* <Image centered src={'https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=' + encodeURIComponent(m3uMeta.url)} size='small' /> */}
+                          {/* <Image centered src={'https://api.qrserver.com/v1/create-qr-code/?size=1200x1200&data=' + encodeURIComponent(m3uMeta.url)} size='small' /> */}
                           <p>
                             <a href={dynamicUrl}>{dynamicUrl}</a>
                           </p>
